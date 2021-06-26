@@ -1,0 +1,22 @@
+.male {
+  border: 3px solid #4682b4;
+  border-radius: 50%;
+  background-color: #4682b4;
+}
+
+.female {
+  border: 3px solid pink;
+  border-radius: 50%;
+  background-color: pink;
+  color: #333;
+}
+
+button {
+  cursor: pointer;
+  display: inline-block;
+  background: #333;
+  color: white;
+  font-size: 18px;
+  border: 0;
+  padding: 1rem 1.5rem;
+}
