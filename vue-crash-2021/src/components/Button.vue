@@ -1,6 +1,6 @@
 <template>
   <button
-    @:click="onClick()"
+    @click="onClick()"
     v-bind:style="{ backgroundColor: color }"
     class="btn"
   >
@@ -16,8 +16,8 @@ export default {
     color: String,
   },
   methods: {
-    onclick() {
-      console.log("click");
+    onClick() {
+      this.$emit("btn-click");
     },
   },
 };
